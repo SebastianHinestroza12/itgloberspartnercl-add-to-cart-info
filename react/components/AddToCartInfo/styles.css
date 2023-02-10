@@ -1,0 +1,41 @@
+.container {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__item {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.container__image {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.prices p:first-child{
+    font-size: 16px;
+    color: #2f353d;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.prices p:nth-child(2){
+    font-size: 14px;
+    color: #83838f;
+    transition: all .25s;
+}
+
+.prices p:last-child{
+    font-size: 16px;
+    font-weight: 700;
+    color: #f25529;
+}

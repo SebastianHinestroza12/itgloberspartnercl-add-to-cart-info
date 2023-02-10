@@ -1,0 +1,32 @@
+.buttonContainer p{
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.buttonContainer{
+  margin-top: 4rem;
+}
+.buttonOne{
+    background: #38434f;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+    border-style: none;
+    width: 230px;
+    height: 55px;
+}
+
+.buttonTwo{
+    background: #f25529;
+    color: #fff;
+    cursor: pointer;
+    border-style: none;
+    width: 230px;
+    height: 55px;
+    transition: all .25s;
+}
+
+.containerCart{
+  display: flex;
+  flex-direction: column;
+}
